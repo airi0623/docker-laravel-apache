@@ -36,4 +36,4 @@ RUN apt-get update && \
 COPY ./infra/docker/php/php.ini /usr/local/etc/php/php.ini
 COPY ./infra/docker/apache/httpd.conf /etc/apache2/sites-available/000-default.conf
 
-WORKDIR /work/backend
+WORKDIR /work/backend2
